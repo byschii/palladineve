@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* grid cols from 13 to 15*/
+
+.grid-cols-11 {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+.grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.grid-cols-13 {
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+}
+.grid-cols-14 {
+    grid-template-columns: repeat(14, minmax(0, 1fr));
+}
+.grid-cols-15 {
+    grid-template-columns: repeat(15, minmax(0, 1fr));
+}
+.grid-cols-16 {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+}
+.grid-cols-17 {
+    grid-template-columns: repeat(17, minmax(0, 1fr));
+}
+.grid-cols-18 {
+    grid-template-columns: repeat(18, minmax(0, 1fr));
+}
+.grid-cols-19 {
+    grid-template-columns: repeat(19, minmax(0, 1fr));
+}
+.grid-cols-20 {
+    grid-template-columns: repeat(20, minmax(0, 1fr));
+}
+
+
+
+/* col span form 13 to 14 */
+.col-span-13 {
+    grid-column: span 13 / span 13;
+}
+.col-span-14 {
+    grid-column: span 14 / span 14;
+}
+.col-span-15 {
+    grid-column: span 15 / span 15;
+}
+.col-span-16 {
+    grid-row-start: 16;
+}
+.col-span-17 {
+    grid-row-start: 17;
+}
+.col-span-18 {
+    grid-row-start: 18;
+}
+.col-span-19 {
+    grid-row-start: 19;
+}
+.col-span-20 {
+    grid-row-start: 20;
+}
+
+
+.col-start-13 {
+    grid-column-start: 13;
+}
+.col-start-14 {
+    grid-column-start: 14;
+}
+.col-start-15 {
+    grid-column-start: 15;
+}
+.col-start-16 {
+    grid-column-start: 16;
+}
+.col-start-17 {
+    grid-column-start: 17;
+}
+.col-start-18 {
+    grid-column-start: 18;
+}
+.col-start-19 {
+    grid-column-start: 19;
+}
+.col-start-20 {
+    grid-column-start: 20;
+}
+
